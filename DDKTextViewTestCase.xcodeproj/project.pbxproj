@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6C319E13FAD09F00D88424 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6C319D13FAD09F00D88424 /* UIKit.framework */; };
+		CE6C31A013FAD09F00D88424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6C319F13FAD09F00D88424 /* Foundation.framework */; };
+		CE6C31A213FAD09F00D88424 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6C31A113FAD09F00D88424 /* CoreGraphics.framework */; };
+		CE6C31A813FAD09F00D88424 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6C31A613FAD09F00D88424 /* InfoPlist.strings */; };
+		CE6C31AA13FAD09F00D88424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C31A913FAD09F00D88424 /* main.m */; };
+		CE6C31AE13FAD09F00D88424 /* DDKTextViewTestCaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C31AD13FAD09F00D88424 /* DDKTextViewTestCaseAppDelegate.m */; };
+		CE6C31B113FAD09F00D88424 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C31AF13FAD09F00D88424 /* MainWindow.xib */; };
+		CE6C31B413FAD09F00D88424 /* DDKTextViewTestCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C31B313FAD09F00D88424 /* DDKTextViewTestCaseViewController.m */; };
+		CE6C31B713FAD09F00D88424 /* DDKTextViewTestCaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C31B513FAD09F00D88424 /* DDKTextViewTestCaseViewController.xib */; };
+		CE6C31C013FAD0B300D88424 /* DDKTextViewAlignWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C31BF13FAD0B300D88424 /* DDKTextViewAlignWidth.m */; };
+		CE6C31C213FAD2CC00D88424 /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE6C31C113FAD2CC00D88424 /* text.txt */; };
+		CE6C31C513FAD7EA00D88424 /* WordHyphParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C31C413FAD7EA00D88424 /* WordHyphParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE6C319913FAD09F00D88424 /* DDKTextViewTestCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDKTextViewTestCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6C319D13FAD09F00D88424 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE6C319F13FAD09F00D88424 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE6C31A113FAD09F00D88424 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE6C31A513FAD09F00D88424 /* DDKTextViewTestCase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDKTextViewTestCase-Info.plist"; sourceTree = "<group>"; };
+		CE6C31A713FAD09F00D88424 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6C31A913FAD09F00D88424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6C31AB13FAD09F00D88424 /* DDKTextViewTestCase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDKTextViewTestCase-Prefix.pch"; sourceTree = "<group>"; };
+		CE6C31AC13FAD09F00D88424 /* DDKTextViewTestCaseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDKTextViewTestCaseAppDelegate.h; sourceTree = "<group>"; };
+		CE6C31AD13FAD09F00D88424 /* DDKTextViewTestCaseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDKTextViewTestCaseAppDelegate.m; sourceTree = "<group>"; };
+		CE6C31B013FAD09F00D88424 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE6C31B213FAD09F00D88424 /* DDKTextViewTestCaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDKTextViewTestCaseViewController.h; sourceTree = "<group>"; };
+		CE6C31B313FAD09F00D88424 /* DDKTextViewTestCaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDKTextViewTestCaseViewController.m; sourceTree = "<group>"; };
+		CE6C31B613FAD09F00D88424 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DDKTextViewTestCaseViewController.xib; sourceTree = "<group>"; };
+		CE6C31BE13FAD0B300D88424 /* DDKTextViewAlignWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDKTextViewAlignWidth.h; sourceTree = "<group>"; };
+		CE6C31BF13FAD0B300D88424 /* DDKTextViewAlignWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDKTextViewAlignWidth.m; sourceTree = "<group>"; };
+		CE6C31C113FAD2CC00D88424 /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
+		CE6C31C313FAD7EA00D88424 /* WordHyphParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordHyphParser.h; sourceTree = "<group>"; };
+		CE6C31C413FAD7EA00D88424 /* WordHyphParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordHyphParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6C319613FAD09F00D88424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6C319E13FAD09F00D88424 /* UIKit.framework in Frameworks */,
+				CE6C31A013FAD09F00D88424 /* Foundation.framework in Frameworks */,
+				CE6C31A213FAD09F00D88424 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6C318E13FAD09E00D88424 = {
+			isa = PBXGroup;
+			children = (
+				CE6C31BD13FAD0B300D88424 /* DDKTextViewAlignWidth */,
+				CE6C31A313FAD09F00D88424 /* DDKTextViewTestCase */,
+				CE6C319C13FAD09F00D88424 /* Frameworks */,
+				CE6C319A13FAD09F00D88424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6C319A13FAD09F00D88424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C319913FAD09F00D88424 /* DDKTextViewTestCase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6C319C13FAD09F00D88424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C319D13FAD09F00D88424 /* UIKit.framework */,
+				CE6C319F13FAD09F00D88424 /* Foundation.framework */,
+				CE6C31A113FAD09F00D88424 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6C31A313FAD09F00D88424 /* DDKTextViewTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C31AC13FAD09F00D88424 /* DDKTextViewTestCaseAppDelegate.h */,
+				CE6C31AD13FAD09F00D88424 /* DDKTextViewTestCaseAppDelegate.m */,
+				CE6C31AF13FAD09F00D88424 /* MainWindow.xib */,
+				CE6C31B213FAD09F00D88424 /* DDKTextViewTestCaseViewController.h */,
+				CE6C31B313FAD09F00D88424 /* DDKTextViewTestCaseViewController.m */,
+				CE6C31B513FAD09F00D88424 /* DDKTextViewTestCaseViewController.xib */,
+				CE6C31A413FAD09F00D88424 /* Supporting Files */,
+			);
+			path = DDKTextViewTestCase;
+			sourceTree = "<group>";
+		};
+		CE6C31A413FAD09F00D88424 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C31A513FAD09F00D88424 /* DDKTextViewTestCase-Info.plist */,
+				CE6C31A613FAD09F00D88424 /* InfoPlist.strings */,
+				CE6C31A913FAD09F00D88424 /* main.m */,
+				CE6C31AB13FAD09F00D88424 /* DDKTextViewTestCase-Prefix.pch */,
+				CE6C31C113FAD2CC00D88424 /* text.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6C31BD13FAD0B300D88424 /* DDKTextViewAlignWidth */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C31BE13FAD0B300D88424 /* DDKTextViewAlignWidth.h */,
+				CE6C31BF13FAD0B300D88424 /* DDKTextViewAlignWidth.m */,
+				CE6C31C313FAD7EA00D88424 /* WordHyphParser.h */,
+				CE6C31C413FAD7EA00D88424 /* WordHyphParser.m */,
+			);
+			path = DDKTextViewAlignWidth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6C319813FAD09F00D88424 /* DDKTextViewTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6C31BA13FAD09F00D88424 /* Build configuration list for PBXNativeTarget "DDKTextViewTestCase" */;
+			buildPhases = (
+				CE6C319513FAD09F00D88424 /* Sources */,
+				CE6C319613FAD09F00D88424 /* Frameworks */,
+				CE6C319713FAD09F00D88424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDKTextViewTestCase;
+			productName = DDKTextViewTestCase;
+			productReference = CE6C319913FAD09F00D88424 /* DDKTextViewTestCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6C319013FAD09E00D88424 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CE6C319313FAD09E00D88424 /* Build configuration list for PBXProject "DDKTextViewTestCase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE6C318E13FAD09E00D88424;
+			productRefGroup = CE6C319A13FAD09F00D88424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6C319813FAD09F00D88424 /* DDKTextViewTestCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6C319713FAD09F00D88424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6C31A813FAD09F00D88424 /* InfoPlist.strings in Resources */,
+				CE6C31B113FAD09F00D88424 /* MainWindow.xib in Resources */,
+				CE6C31B713FAD09F00D88424 /* DDKTextViewTestCaseViewController.xib in Resources */,
+				CE6C31C213FAD2CC00D88424 /* text.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6C319513FAD09F00D88424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6C31AA13FAD09F00D88424 /* main.m in Sources */,
+				CE6C31AE13FAD09F00D88424 /* DDKTextViewTestCaseAppDelegate.m in Sources */,
+				CE6C31B413FAD09F00D88424 /* DDKTextViewTestCaseViewController.m in Sources */,
+				CE6C31C013FAD0B300D88424 /* DDKTextViewAlignWidth.m in Sources */,
+				CE6C31C513FAD7EA00D88424 /* WordHyphParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE6C31A613FAD09F00D88424 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6C31A713FAD09F00D88424 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE6C31AF13FAD09F00D88424 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6C31B013FAD09F00D88424 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE6C31B513FAD09F00D88424 /* DDKTextViewTestCaseViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6C31B613FAD09F00D88424 /* en */,
+			);
+			name = DDKTextViewTestCaseViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6C31B813FAD09F00D88424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6C31B913FAD09F00D88424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6C31BB13FAD09F00D88424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDKTextViewTestCase/DDKTextViewTestCase-Prefix.pch";
+				INFOPLIST_FILE = "DDKTextViewTestCase/DDKTextViewTestCase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE6C31BC13FAD09F00D88424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDKTextViewTestCase/DDKTextViewTestCase-Prefix.pch";
+				INFOPLIST_FILE = "DDKTextViewTestCase/DDKTextViewTestCase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6C319313FAD09E00D88424 /* Build configuration list for PBXProject "DDKTextViewTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C31B813FAD09F00D88424 /* Debug */,
+				CE6C31B913FAD09F00D88424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6C31BA13FAD09F00D88424 /* Build configuration list for PBXNativeTarget "DDKTextViewTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C31BB13FAD09F00D88424 /* Debug */,
+				CE6C31BC13FAD09F00D88424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6C319013FAD09E00D88424 /* Project object */;
+}
